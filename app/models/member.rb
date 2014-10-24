@@ -3,6 +3,7 @@ class Member
   include Mongoid::Paperclip
   include Mongoid::Followee
   include Mongoid::Follower
+  include Mongoid::Rating
 
 
   field :Id, type: Integer

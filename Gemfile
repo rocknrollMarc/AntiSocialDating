@@ -33,6 +33,7 @@ end
 gem 'mongoid', github: "mongoid/mongoid"
 gem "mongoid-enum"
 gem 'mongoid_follow'
+gem 'mongoid-rating'
 
 gem 'devise'
 
