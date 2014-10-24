@@ -1,6 +1,9 @@
 class Member
   include Mongoid::Document
   include Mongoid::Paperclip
+  include Mongoid::Followee
+  include Mongoid::Follower
+
 
   field :Id, type: Integer
   field :first_name, type: String
