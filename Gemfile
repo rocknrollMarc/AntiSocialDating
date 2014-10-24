@@ -31,6 +31,7 @@ group :doc do
 end
 
 gem 'mongoid', github: "mongoid/mongoid"
+gem "mongoid-enum"
 
 gem 'devise'
 

@@ -102,6 +102,8 @@ GEM
     mime-types (1.25.1)
     mini_portile (0.6.0)
     minitest (4.7.5)
+    mongoid-enum (0.2.0)
+      mongoid (~> 4.0)
     mongoid-paperclip (0.0.9)
       paperclip (>= 2.3.6)
     moped (2.0.1)
@@ -213,6 +215,7 @@ DEPENDENCIES
   jquery-rails
   launchy
   mongoid!
+  mongoid-enum
   mongoid-paperclip
   pry-rails
   rails (= 4.0.0)

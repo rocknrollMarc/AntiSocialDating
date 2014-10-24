@@ -11,9 +11,12 @@ class Member
   field :description, type: String
 
   embeds_many :messages
-  embeds_many :bobbies
+  index "message.from_member" => 1
+  embeds_many :hobbies
+  index "hobbies.user" => 1
   embeds_one :member_info
   embeds_many :contacted_members
+  index "contacted_member.user" => 1
 
   belongs_to :user
 
