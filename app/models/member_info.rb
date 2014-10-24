@@ -7,4 +7,8 @@ class MemberInfo
   field :drinker, type: Mongoid::Boolean
   field :relashionship_status, type: String
   field :children, type: Integer
+
+  embedded_in :member
+
+  
 end

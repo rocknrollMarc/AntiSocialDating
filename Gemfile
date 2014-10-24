@@ -34,6 +34,8 @@ gem 'mongoid', github: "mongoid/mongoid"
 
 gem 'devise'
 
+gem "mongoid-paperclip", :require => "mongoid_paperclip"
+
 gem 'rails_layout', github: 'RailsApps/rails_layout'
 gem 'foundation-rails'
 
