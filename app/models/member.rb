@@ -4,6 +4,10 @@ class Member
   include Mongoid::Followee
   include Mongoid::Follower
   include Mongoid::Rating
+  include Mongoid::Liker
+  include Mongoid::Commenter
+  include Mongoid::Sharer
+
 
 
   field :Id, type: Integer

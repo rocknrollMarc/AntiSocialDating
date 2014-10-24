@@ -1,6 +1,10 @@
 class Hobbies
   include Mongoid::Document
   include Mongoid::Enum 
+  include Mongoid::Likeable
+  include Mongoid::Commentable
+  include Mongoid::Sharable
+
 
   field :id, type: Integer
   field :hobby_name, type: String
