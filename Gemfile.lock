@@ -113,6 +113,9 @@ GEM
     mongoid_follow (0.2.3)
       bson_ext
       mongoid
+    mongoid_socializer_actions (2.0.2)
+      activesupport (>= 3.2)
+      mongoid (>= 3.0)
     moped (2.0.1)
       bson (~> 2.2)
       connection_pool (~> 2.0)
@@ -226,6 +229,7 @@ DEPENDENCIES
   mongoid-paperclip
   mongoid-rating
   mongoid_follow
+  mongoid_socializer_actions
   pry-rails
   rails (= 4.0.0)
   rails_layout!

@@ -1,4 +1,6 @@
 AntiSocialDating::Application.routes.draw do
+  resources :articles
+
   resources :members
 
   devise_for :users
